@@ -14,6 +14,7 @@ while(j<fruitList.length){
 
 //Dowhile Loop
 let k=0;
+
 do {
     console.log(`${fruitList[k]}`+" is a dowhile loop collection fruit");
     k++;
