@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Roadmap</title>
-    <script src="/39_Dom.js" defer></script>
+    <!-- <script src="39_Dom.js" defer></script> -->
+    <script src="40_Selecting_Element.js" defer></script>
+    <style>
+      [alt="html-css-javascript"] {
+        border: 2px solid red;
+      }
+    </style>
   </head>
   <body style="font-family: sans-serif">
     <h1>Frondend Development</h1>
     <h2>Heading</h2>
     <hr />
-    <p> 
+    <p>
       <b>Frontend development</b> is the development of the
       <a
         href="https://en.wikipedia.org/wiki/Graphical_user_interface"
@@ -27,6 +33,7 @@
       >, so that users can view and interact with that website.
     </p>
     <img
+      class="cssImage"
       src="./assets/html-css-javascript.png"
       alt="html-css-javascript"
       style="width: 100%; max-width: 600px"
@@ -34,7 +41,7 @@
     />
 
     <ul>
-      <li>
+      <li id="selectId">
         <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
         standard markup language for documents designed to be displayed in a web
         browser.
@@ -47,12 +54,13 @@
         <br />
         <br />
         <img
+        class="cssImage"
           src="./assets/css.png"
           alt="css roadmap"
           style="width: 100%; max-width: 600px"
         />
         <ol>
-          <li style="background-color: green;"><p>Pure CSS</p></li>
+          <li style="background-color: green"><p>Pure CSS</p></li>
           <li>
             <p>Bootstrap <i>(Framework)</i></p>
           </li>
@@ -71,6 +79,7 @@
           alongside HTML and CSS. It is use to add functionality in the website.
         </p>
         <img
+        class="cssImage"
           src="./assets/javascript.png"
           alt="javascript roadmap"
           style="width: 100%; max-width: 600px"
@@ -78,15 +87,25 @@
 
         <ol type="a">
           <li><p>Vanilla JS</p></li>
-          <li><p>jQuery <i>(Library)</i></p></li>
-          <li><p>React <i>(Framework)</i></p></li>
-          <li><p>Angular <i>(Framework)</i></p></li>
-          <li><p>Vue <i>(Framework)</i></p></li>
-          <li><p>Typescript <i>(Preprocessor)</i></p></li>
+          <li>
+            <p>jQuery <i>(Library)</i></p>
+          </li>
+          <li>
+            <p>React <i>(Framework)</i></p>
+          </li>
+          <li>
+            <p>Angular <i>(Framework)</i></p>
+          </li>
+          <li>
+            <p>Vue <i>(Framework)</i></p>
+          </li>
+          <li>
+            <p>Typescript <i>(Preprocessor)</i></p>
+          </li>
         </ol>
       </li>
     </ul>
 
-    <p style="text-align: center;">All copyrights &copy; reserved</p>
+    <p style="text-align: center">All copyrights &copy; reserved</p>
   </body>
 </html>
