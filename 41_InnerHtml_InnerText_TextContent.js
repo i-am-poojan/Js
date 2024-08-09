@@ -1,8 +1,8 @@
-// const innerHtmlTest=document.querySelectorAll('ul li')
-// console.dir(innerHtmlTest.innerHtml)
+const innerHtmlTest=document.querySelectorAll('nav')
+console.dir(innerHtmlTest.innerHtml)
 
-// const innerTextTest=document.querySelectorAll('ul li')
+// const innerTextTest=document.querySelectorAll('nav')
 // console.dir( innerTextTest.innerText)
 
-// const textContent=document.querySelectorAll('ul li')
-// console.dir( innerTextTest.textContent)
+// const textContentTest=document.querySelectorAll('nav')
+// console.dir( textContentTest.textContent)
